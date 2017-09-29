@@ -6,15 +6,15 @@
 function cssteap_updates_theme() {
   return array(
     'cssteap' => array(
-      'template' => 'cssteap',
+      'template' => 'admin/cssteap',
       'variables' => array('links' => NULL),
     ),
     'announcement' => array(
-      'template' => 'announcement',
+      'template' => 'admin/announcement',
       'variables' => array('form' => NULL, 'result' => NULL, 'editData' => NULL),
     ),
     'courses' => array(
-      'template' => 'courses',
+      'template' => 'admin/courses',
       'variables' => array('form' => NULL, 'result' => NULL),
     ),
     'news' => array(
